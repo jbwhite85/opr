@@ -18,3 +18,14 @@
 - Setup database server for all of the user's profiles/inputs/info to be sent and stored
 - Using the 'price per registration' method (manual labor to re-input the data to each manufaturer)[for now], send the info to the respective manufaturer within 1 hour of gathering the data
 - Send user a confirmation email that our server/service department has received their information and will hear from us shortly when the product was successfully registered.
+
+
+-----------------------
+
+**Next Steps**
+
+- Find a source for UPC data...whether it be a dump that is imported, or an online service that can accept code and pass back product information.
+
+- Online database to store client's info; Pictures of the scanned product's UPC/Serial number and possible receipt. 
+
+- Drink beer.
