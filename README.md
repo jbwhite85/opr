@@ -1,8 +1,6 @@
-LAST UPDATED: 10 FEB 2016, 0430Z. JBW
+**OPR/OSR - Online Product Registration / One Stop RMA**  ---  NAME IS STILL TBD.
 
-OPR/OSR - Online Product Registration / One Stop RMA  ---  NAME IS STILL TBD.
-
-ACTUAL MVP will be only the OPR
+*ACTUAL MVP will be only the OPR*
 
 **For the user (needs to do):**
 
