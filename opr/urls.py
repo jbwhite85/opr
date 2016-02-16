@@ -21,3 +21,4 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^user/create', api_views.create_user)
 ]
+
