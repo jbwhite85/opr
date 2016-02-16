@@ -1,3 +1,4 @@
 *.pyc
 _build
 .python-version
+db.sqlite3
