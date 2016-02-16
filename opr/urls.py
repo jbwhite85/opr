@@ -17,7 +17,7 @@ from django.conf.urls import url
 from api import views as api_views
 
 urlpatterns = [
-    url(r'^user/create/$', api_views.create_user),
-    url(r'^user/(?P<user_id>[0-9]+)/$', api_views.user),
+    url(r'^user/create/$', api_views.create_user, name='create-user'),
+    url(r'^user/(?P<user_id>[0-9]+)/$', api_views.user, name='user'),
 ]
 
