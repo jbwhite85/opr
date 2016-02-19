@@ -19,5 +19,9 @@ from api import views as api_views
 urlpatterns = [
     url(r'^user/create/$', api_views.create_user, name='create-user'),
     url(r'^user/(?P<user_id>[0-9]+)/$', api_views.user, name='user'),
+    url(r'^user/login/$)', api_views.login, name='login'),
+    url(r'^user/auth/$)', api_views.auth_view, name='auth_view'),
+    url(r'^user/logout/$)', api_views.logout, name='logout'),
+    url(r'^user/loggedin/$)', api_views.loggedin, name='loggedin'),
+    url(r'^user/invalid/$)', api_views.invalid_login, name='invalid_login'),
 ]
-
