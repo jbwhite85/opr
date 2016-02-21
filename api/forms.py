@@ -5,4 +5,10 @@ from .models import User
 class UserForm(forms.ModelForm):
     class Meta:
         model = User
-        fields = ['first_name', 'last_name', 'street', 'city', 'state', 'zipcode', 'email', 'phone']
+        fields = ['first_name', 'last_name', 'street', 'city', 'state',
+         'zipcode', 'email', 'phone']
+
+         widgets = {
+         'password': forms.PasswordInput(),
+         }
+

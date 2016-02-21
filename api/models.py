@@ -10,3 +10,6 @@ class User(models.Model):
     zipcode = models.TextField()
     email = models.TextField()
     phone = models.TextField(help_text="IE: 555-555-5555")
+    username = models.CharField(max_length=100)
+    password = models.CharField(max_length=50)
+
